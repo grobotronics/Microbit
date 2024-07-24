@@ -34,24 +34,26 @@ Tutorials in Greek (MakeCode & Python):
 
 13. Autonomous Bulldozer
 
-14. Analog Footballer
+14. Mazebot
 
-15. Grabot with 2 Servos
+15. Analog Footballer
 
-16. Object Tracking
+16. Grabot with 2 Servos
 
-17. Object Classification
+17. Object Tracking
+
+18. Object Classification
 
 <br> <br> <br>
 Required:
 
 IR Remote Control (11)
 
-DFRobot GamePad V4 (12, 14, 15)
+DFRobot GamePad V4 (12, 15, 16)
 
-DFRobot Maqueen Mechanic (13, 14, 15)
+DFRobot Maqueen Mechanic (13, 14, 15, 16)
 
-DFRobot HuskyLens (16, 17)
+DFRobot HuskyLens (17, 18)
 
 
 
