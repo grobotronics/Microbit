@@ -8,9 +8,9 @@ editor: https://python.microbit.org
 <br> <br> <br>
 Tutorials in Greek (MakeCode & Python):
 
-01. [Getting stared](https://blog.grobotronics.com/?p=3251)
+1. [Getting stared](https://blog.grobotronics.com/?p=3251)
 
-02. Dancing Maqueen
+2. Dancing Maqueen
 
 03. Light-controlled Maqueen
 
@@ -28,7 +28,7 @@ Tutorials in Greek (MakeCode & Python):
 
 10. Hand-controlled
 
-11.Maqueen & Remote Control
+11. Maqueen & Remote Control
 
 12. Maqueen & DFRobot GamePad V4
 
