@@ -8,15 +8,15 @@ editor: https://python.microbit.org
 <br> <br> <br>
 Tutorials in Greek (MakeCode & Python):
 
-1. [Getting stared](https://blog.grobotronics.com/?p=3251)
+1. [Getting started](https://blog.grobotronics.com/?p=3251)
 
 2. Dancing Maqueen
 
-3. Light-controlled
+3. Light-controlled Maqueen
 
-4. Sound-controlled
+4. Sound-controlled Maqueen
 
-5. Obstacle avoidance
+5. Obstacle Avoidance
 
 6. Hand Following
 
@@ -26,22 +26,33 @@ Tutorials in Greek (MakeCode & Python):
 
 9. PID Line Following (Plus V2)
 
-10. Hand-controlled
+10. Hand-controlled Maqueen
 
-11. Maqueen & Remote Control
+11. Sending Commands to Maqueen
 
-12. Maqueen & GamePad V4
+12. GamePad-controlled Maqueen
 
 13. Autonomous Bulldozer
 
-14. Footballer - GamePad Analog mode
+14. Analog Footballer
 
-15. Grabot - Control Servos with GamePad
+15. Grabot with 2 Servos
 
-16. Object tracking
+16. Object Tracking
 
+17. Object Classification
 
+<br> <br> <br>
 
+Required:
+
+IR Remote Control (11)
+
+DFRobot GamePad V4 (12, 14, 15)
+
+DFRobot Maqueen Mechanic (13, 14, 15)
+
+DFRobot HuskyLens (16, 17)
 
 
 
