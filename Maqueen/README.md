@@ -12,29 +12,29 @@ Tutorials in Greek (MakeCode & Python):
 
 02. Dancing Maqueen
 
-3.Light-controlled Maqueen
+03. Light-controlled Maqueen
 
-4.Sound-controlled
+04. Sound-controlled
 
-5.Obstacle avoidance
+05. Obstacle avoidance
 
-6.Hand Following
+06. Hand Following
 
-7.[Line Following](https://blog.grobotronics.com/?p=3327)
+07. [Line Following](https://blog.grobotronics.com/?p=3327)
 
-8.Line Following & Intersections (Plus V2)
+08. Line Following & Intersections (Plus V2)
 
-9.PID Line Following (Plus V2)
+09. PID Line Following (Plus V2)
 
-10.Hand-controlled
+10. Hand-controlled
 
 11.Maqueen & Remote Control
 
-12.Maqueen & DFRobot GamePad V4
+12. Maqueen & DFRobot GamePad V4
 
-13.Autonomous Bulldozer
+13. Autonomous Bulldozer
 
-14.Football (GamePad Analog mode)
+14. Football (GamePad Analog mode)
 
 
 
