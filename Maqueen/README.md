@@ -8,9 +8,9 @@ editor: https://python.microbit.org
 <br> <br> <br>
 Tutorials in Greek (MakeCode & Python):
 
-1.[Getting stared](https://blog.grobotronics.com/?p=3251)
+01. [Getting stared](https://blog.grobotronics.com/?p=3251)
 
-2.Dancing Maqueen
+02. Dancing Maqueen
 
 3.Light-controlled Maqueen
 
