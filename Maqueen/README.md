@@ -41,9 +41,7 @@ Tutorials in Greek (MakeCode & Python):
 16. Object Tracking
 
 17. Object Classification
-
-
-
+<br> <br> <br>
 Required:
 
 IR Remote Control (11)
