@@ -1,3 +1,6 @@
+https://grobotronics.com/
+
+
 Python module for both **DFRobot Maqueen Lite** and **DFRobot Maqueen Plus V2**.
 
 
@@ -10,7 +13,3 @@ Tutorials in Greek :
 
 [Follow Line](https://blog.grobotronics.com/?p=3327)
 
-...
-
-
-https://grobotronics.com/
