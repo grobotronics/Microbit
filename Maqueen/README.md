@@ -40,9 +40,9 @@ Tutorials in Greek (MakeCode & Python):
 
 16. Grabot with 2 Servos
 
-17. Object Tracking
+17. Object Tracking (Plus V2)
 
-18. Object Classification
+18. Object Classification (Plus V2)
 
 <br> <br> <br>
 Required:
