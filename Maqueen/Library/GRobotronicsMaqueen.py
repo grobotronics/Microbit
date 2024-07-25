@@ -146,7 +146,7 @@ class LiteServoController:
     def __init__(self):
         i2c.init()
 
-    def control_led(self, servo, angle):
+    def set_servo(self, servo, angle):
         buf = bytearray(2)
         if servo == "SERVO1":
             buf[0] = SERVO1_REGISTER
