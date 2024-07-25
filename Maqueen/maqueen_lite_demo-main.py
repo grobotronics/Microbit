@@ -53,15 +53,15 @@ while True:
     robot.move(-100, -100)  # (left motor, right motor)
     sleep(0.5)
     robot.stop()
-
+    
     # Control 2 servos
-    servo.control_led("SERVO1", 0)    # servo 1 goes to 0 degrees
-    servo.control_led("SERVO2", 0)    # servo 2 goes to 0 degrees
+    servo.set_servo("SERVO1", 0)    # servo 1 goes to 0 degrees
+    servo.set_servo("SERVO2", 0)    # servo 2 goes to 0 degrees
     sleep(1)
-    servo.control_led("SERVO1", 90)   # servo 1 goes to 90 degrees
-    servo.control_led("SERVO2", 90)   # servo 2 goes to 90 degrees
+    servo.set_servo("SERVO1", 90)   # servo 1 goes to 90 degrees
+    servo.set_servo("SERVO2", 90)   # servo 2 goes to 90 degrees
     sleep(1)
-    servo.control_led("SERVO1", 180)  # servo 1 goes to 180 degrees
-    servo.control_led("SERVO2", 180)  # servo 2 goes to 180 degrees
+    servo.set_servo("SERVO1", 180)  # servo 1 goes to 180 degrees
+    servo.set_servo("SERVO2", 180)  # servo 2 goes to 180 degrees
     sleep(1)
     
