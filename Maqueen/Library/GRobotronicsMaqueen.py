@@ -113,7 +113,7 @@ class MoveMaqueen:
             buf[0] = LEFT_MOTOR_REGISTER if motor == 0 else RIGHT_MOTOR_REGISTER
             # Select direction: 0 for CW, 1 for CCW
             buf[1] = 0 if speed >= 0 else 1
-            # Map values from (0, 255) to (-100, 100)
+            # Map values from [0, 255] to [0, 100]
             buf[2] = abs(speed) * 255 // 100
             i2c.write(I2C_ADDR, buf)
         # Set speed for left and right motor
