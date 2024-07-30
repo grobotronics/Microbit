@@ -22,38 +22,34 @@ Tutorials in Greek (MakeCode & Python):
 
 7. [Line Following](https://blog.grobotronics.com/?p=3327)
 
-8. Handling Intersections (Plus V2)
+8. PID Line Following (Plus V2)
 
-9. PID Line Following (Plus V2)
+9. Handling Intersections (Plus V2)
 
 10. Hand-controlled Maqueen
 
-11. Sending Commands to Maqueen
+11. GamePad-controlled Maqueen
 
-12. GamePad-controlled Maqueen
+12. Autonomous Bulldozer
 
-13. Autonomous Bulldozer
+13. Mazebot
 
-14. Mazebot
+14. Analog Footballer
 
-15. Analog Footballer
+15. Grabot with 2 Servos
 
-16. Grabot with 2 Servos
+16. Object Tracking (Plus V2)
 
-17. Object Tracking (Plus V2)
-
-18. Object Classification (Plus V2)
+17. Object Classification (Plus V2)
 
 <br> <br> <br>
 Required:
 
-IR Remote Control (11)
+DFRobot GamePad V4 (11, 14, 15)
 
-DFRobot GamePad V4 (12, 15, 16)
+DFRobot Maqueen Mechanic (12, 13, 14, 15)
 
-DFRobot Maqueen Mechanic (13, 14, 15, 16)
-
-DFRobot HuskyLens (17, 18)
+DFRobot HuskyLens (16, 17)
 
 
 
