@@ -163,7 +163,6 @@ class DigitalGamePad:
     def get_message(self):
         messageReceived = radio.receive()
         if messageReceived:
-            print(messageReceived)
             if len(messageReceived) < 4:  # if length of message is less than 4 then speed value was sent
                 speed = int(messageReceived)
                 return speed
