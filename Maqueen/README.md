@@ -36,7 +36,7 @@ Tutorials in Greek (MakeCode & Python):
 
 14. Analog Footballer
 
-15. Grabot with 2 Servos
+15. Grabot
 
 16. Object Tracking (Plus V2)
 
