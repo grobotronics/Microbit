@@ -174,9 +174,6 @@ class DigitalGamePad:
 class AnalogGamePad:
     def __init__(self):
         radio.on()
-        
-    def map_value(self, value, in_min, in_max, out_min, out_max):
-        return (value - in_min) * (out_max - out_min) // (in_max - in_min) + out_min
 
     def get_speeds(self):
         messageReceived = radio.receive()
