@@ -205,11 +205,11 @@ class AnalogGamePad:
             elif r > 90 and theta > -0.2 and theta < 0.2:
                 leftSpeed = 100
                 rightSpeed = -100
-            # Calculate motor speeds based on polar coordinates when moving forward
+            # Calculate motor speeds based on polar coordinates when moving backward
             elif theta < 0 and r < 90:
                 leftSpeed = r * (math.sin(theta) - math.cos(theta))
                 rightSpeed = r * (math.sin(theta) + math.cos(theta))
-            # Calculate motor speeds based on polar coordinates when moving backward
+            # Calculate motor speeds based on polar coordinates when moving forward
             else:
                 leftSpeed = r * (math.sin(theta) + math.cos(theta))
                 rightSpeed = r * (math.sin(theta) - math.cos(theta))
