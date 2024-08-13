@@ -1,6 +1,7 @@
 from microbit import *
 import radio
 import ustruct
+import math
 from utime import sleep_us
 from machine import time_pulse_us
 
@@ -184,20 +185,38 @@ class AnalogGamePad:
             Yvalue_str = messageReceived[4:]  # Keep last 4 digits
             Xvalue = int(Xvalue_str)  
             Yvalue = int(Yvalue_str)
-            # Map values from (0, 1023) to (-100, 100)
-            mappedX = self.map_value(Xvalue, 0, 1023, -100, 100)
-            mappedY = self.map_value(Yvalue, 0, 1023, -100, 100)
-            # Set speed of motors based on mappedX and mappedY values
-            leftSpeed = mappedY + mappedX
-            rightSpeed = mappedY - mappedX
-            # Ensure speed values are in range (-100, 100)
-            leftSpeed = max(min(leftSpeed, 100), -100)
-            rightSpeed = max(min(rightSpeed, 100), -100)
-            # Ensure robot will not flicker when joystick remains in the center position
-            if leftSpeed > -10 and leftSpeed < 10:
+            # Convert joystick values from [0, 1023] to [-512, 511]
+            Xvalue = Xvalue - 512
+            Yvalue = Yvalue - 512
+            # Calculate the radius (r) and angle (theta) in polar coordinates
+            r = math.sqrt(Xvalue**2 + Yvalue**2)
+            theta = math.atan2(Yvalue, Xvalue)
+            # Normalize the radius to be between 0 and 100
+            r = min(r, 512) / 512 * 100
+            # Ensure robot will not flicker when joystick remains at the center position
+            if r < 10:
                 leftSpeed = 0
-            if rightSpeed > -10 and rightSpeed < 10:
                 rightSpeed = 0
+            # Εnsure a smooth transition at the left end of the x-axis
+            elif r > 90 and theta > 2.9 or theta < -2.9:
+                leftSpeed = -100
+                rightSpeed = 100
+            # Εnsure a smooth transition at the right end of the x-axis
+            elif r > 90 and theta > -0.2 and theta < 0.2:
+                leftSpeed = 100
+                rightSpeed = -100
+            # Calculate motor speeds based on polar coordinates when moving forward
+            elif theta < 0 and r < 90:
+                leftSpeed = r * (math.sin(theta) - math.cos(theta))
+                rightSpeed = r * (math.sin(theta) + math.cos(theta))
+            # Calculate motor speeds based on polar coordinates when moving backward
+            else:
+                leftSpeed = r * (math.sin(theta) + math.cos(theta))
+                rightSpeed = r * (math.sin(theta) - math.cos(theta))
+            # Normalize speed from -100 to 100
+            leftSpeed = int(max(min(leftSpeed, 100), -100))
+            rightSpeed = int(max(min(rightSpeed, 100), -100))
+            
             return leftSpeed, rightSpeed
         else:
             return 0, 0
