@@ -197,11 +197,11 @@ class AnalogGamePad:
             if r < 10:
                 leftSpeed = 0
                 rightSpeed = 0
-            # Εnsure a smooth transition at the left end of the x-axis
+            # Εnsure a smooth operation at the left end of the x-axis
             elif r > 90 and theta > 2.9 or theta < -2.9:
                 leftSpeed = -100
                 rightSpeed = 100
-            # Εnsure a smooth transition at the right end of the x-axis
+            # Εnsure a smooth operation at the right end of the x-axis
             elif r > 90 and theta > -0.2 and theta < 0.2:
                 leftSpeed = 100
                 rightSpeed = -100
