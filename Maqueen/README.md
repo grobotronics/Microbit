@@ -36,7 +36,7 @@ Tutorials in Greek (MakeCode & Python):
 
 14. Analog Footballer
 
-15. Grabot
+15. Moon Rover
 
 16. Object Tracking (Plus V2)
 
