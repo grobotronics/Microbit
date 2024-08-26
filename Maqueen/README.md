@@ -50,11 +50,3 @@ DFRobot GamePad V4 (11, 14, 15)
 DFRobot Maqueen Mechanic (12, 13, 14, 15)
 
 DFRobot HuskyLens (16, 17)
-
-
-
-
-
-
-
-
