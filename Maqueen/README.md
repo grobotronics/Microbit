@@ -28,7 +28,7 @@ Tutorials in Greek (MakeCode & Python):
 
 10. Hand-controlled Maqueen
 
-11. [GamePad-controlled Maqueen] (https://blog.grobotronics.com/?p=3390)
+11. [GamePad-controlled Maqueen](https://blog.grobotronics.com/?p=3390)
 
 12. Autonomous Bulldozer
 
