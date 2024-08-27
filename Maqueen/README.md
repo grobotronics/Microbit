@@ -40,7 +40,7 @@ Tutorials in Greek (MakeCode & Python):
 
 16. Object Tracking (Plus V2)
 
-17. Object Classification (Plus V2)
+17. Autonomous Vehicle (Plus V2)
 
 <br> <br> <br>
 Required:
